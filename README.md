@@ -4,13 +4,14 @@
 الشاشة الرئيسية (Home):
 عملت شاشة فيها قائمة منتجات بسيطة. كل منتج فيه زر "التفاصيل". لما تضغط على الزر، استخدمت أمر Navigator.push. هذا الأمر وظيفته ياخذ الصفحة الجديدة (DetailScreen) ويحطها فوق صفحة الهوم.
 ليش استخدمت MaterialPageRoute؟ عشان فلاتر هو اللي يهتم بحركة الأنميشن (كيف تظهر الصفحة) ويوفر لي "سهم الرجوع" التلقائي.
-D:\mahmood\flutter\onusflutter\onus1\lib\asset\imageonus1.1.png
+<img width="1366" height="768" alt="imageonus1 1" src="https://github.com/user-attachments/assets/0fa2a384-7bdb-4c6a-af89-c10bae6daeac" />
+
 
 
 شاشة التفاصيل (Detail):
 هنا طبقت عكس العملية. أضفت زر "رجوع" يدوي (مثل ما هو مطلوب في التكليف) وبرمجته بأمر Navigator.pop. هذا الأمر ببساطة "يمسح" صفحة التفاصيل من أعلى المكدس، فترجع تظهر لنا الشاشة اللي كانت تحتها (اللي هي الهوم)
+<img width="1366" height="768" alt="image2onus1" src="https://github.com/user-attachments/assets/3fbc3e3d-30a1-4a70-9db8-7e01f9c24148" />
 
-D:\mahmood\flutter\onusflutter\onus1\lib\asset\image2onus1.png
 
 حالة الـ Stack أثناء التشغيل:
 أول ما تفتح التطبيق: يكون الـ Stack فيه [ HomeScreen ] فقط.
